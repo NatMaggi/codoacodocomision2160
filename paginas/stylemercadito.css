@@ -1,7 +1,7 @@
 header{
-    /* background-image: url('../img/header.jpeg'); FALTA AGREGAR IMG*/
+    background-image: url('../paginas/img/pc.jpg'); 
     /* background-repeat: no-repeat; */
-    height: 150px;
+    height: 200px;
     display: flex;
     justify-content: flex-end;
     position: fixed;
