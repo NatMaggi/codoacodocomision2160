@@ -1,0 +1,30 @@
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: space-between;
+
+}
+.cuadro{
+    background-color: blueviolet;
+    width: 20%;
+    height: 200px;
+    display:flex;
+    flex-wrap: wrap;
+}
+    /*float: left;
+    border: 80px solid rgb(247, 223, 7)*/
+
+.cuadro p{
+    font-size: x-large;
+}
+.footer{
+    background-color: slategrey;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+}
