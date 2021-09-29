@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+nav img{
+    width: 120px;
+}
+
+nav{
+    padding:20px;
+}
+.navbar-brand{
+    font-size: 25px;
+}
+
+#navbarNav{
+    font-size:20px;
+   display:flex;
+   justify-content: flex-end;
+}
+
+#ba{
+    filter: brightness(50%);
+   width:100% !important;
+}
+.card-img-overlay{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+
+.cards img{
+    width:60%;
+}
+
+
+.cards{
+    display:flex;
+    justify-content: center;
+}
