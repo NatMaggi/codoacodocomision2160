@@ -2,43 +2,108 @@
     margin:0;
     padding:0;
     border:0;
+    position: relative;
 }
 
 nav img{
-    width: 120px;
+    width: 100px;
+    height: 57px;
+    margin-left: 30px;
 }
 
-nav{
-    padding:20px;
-}
+
 .navbar-brand{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #navbarNav{
-    font-size:20px;
+    font-size:15px;
    display:flex;
    justify-content: flex-end;
+}
+#tickets{
+    color: rgba(47, 255, 75, 0.514) !important;
 }
 
 #ba{
     filter: brightness(50%);
-   width:100% !important;
-}
-.card-img-overlay{
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-    font-size: 18px;
+    height: 550px !important;
 }
 
+.conf-bsas{
+    margin-top: 200px;
+    margin-right: 100px;
+    font-weight: 600;
+} 
+h5{
+    font-weight: 600;
+}
+.card-text{
+    line-height: 25px;
+}
+#orador{
+    margin: 8px;
+}
 
-.cards img{
+#tick{
+ background-color: green;
+ color: white;
+ margin: 8px;
+}
+
+.col-card{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.card-text{
+    font-size: 13px;
+}
+
+.playa {
+    margin-right: 1px;
+    padding-right: 0px;
+    width: 50%;
+  }
+.octubre {
+    background-color: #353a40;
+    color: white;
+  }
+.text {
+    font-size: 12px;
+}
+#conv-orador{
+    text-align: center;
+    padding-top: 30px;
+}
+.puntos{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+.btn-enviar{
+    background-color: rgb(106, 207, 58);
+    color: white;
+    margin: 10px;
+    width: 100%
+}
+#formulario{
     width:60%;
 }
+.form-control{
+    margin:10px;
+   
+}
+textarea{
+    font-size: 20px !important;
+}
 
-
-.cards{
-    display:flex;
-    justify-content: center;
+footer{
+    background: linear-gradient(rgb(20, 65, 77), rgb(34, 69, 109));
+    padding: 20px;
+    height: 80px;
+    text-align: center;
+    align-items: center !important;
+    vertical-align: middle !important;
+    font-size: small;
+    color:white;
 }

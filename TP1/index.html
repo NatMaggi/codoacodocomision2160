@@ -13,6 +13,8 @@
     <title>TP Integrador</title>
   </head>
   <body>
+    <!-- Nav bar-->
+
        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -45,64 +47,174 @@
       </nav>
 <main>
  
-
+<!-- imagen de portada-->
  
 
     <div class="card bg-dark text-white">
       <img id="ba" src="img/ba1.jpg" class="card-img" alt="...">
       <div class="card-img-overlay">
-        <h5 class="card-title">Conf Bs As</h5>
-        <p class="card-text">Bs As llega por primera vez a Argentina. Un evento para compartir con
-          <br>
-          nuestra comunidad el conocimiento y experiencia de los expertos que
-          <br>
-          están creando el futuro de internet. Ven a conocer miembros del
-          <br>
-          evento, a otros estudiantes de Codo a Codo y los oradores de primer
-          <br>
+        <div class="conf-bsas text-end texto text-white">
+         <h3 class="card-titulo" id="titulo-conf">Conf Bs As</h3>
+         <p class="card-textito">Bs As llega por primera vez a Argentina. Un evento para compartir con <br>
+          nuestra comunidad el conocimiento y experiencia de los expertos que<br>
+          están creando el futuro de internet. Ven a conocer miembros del<br>
+          evento, a otros estudiantes de Codo a Codo y los oradores de primer<br>
           que tenemos para ti. Te esperamos</p>
-             </div>
+
+          <button type="button" class="btn btn-outline-light" id= "orador">Quiero ser orador</button>
+          <button type="button" class="btn btn-success" id="tick">Comprar Tickets</button>
+        </div>
+      </div>
     </div>
 
-  
+  <!-- oradores-->
 
-<div class="cards">
+    <div class="container">
+      <div class="row">
+          <div class="col mt-5 mb-3">                
+          <h6 class= "text-center">Conoce a los </h6>
+          <h2 class= "text-center text-uppercase">oradores</h2>
+          </div>
+      </div>
+  </div>
+ 
+  <div class="container">
+      <div class="row-cols-md-4 d-flex justify-content-center">
 
-  <div class="card-group">
-  <div class="cards">
-    <img src="img/steve.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <div class="col-card">
+              <div class="card h-100">
+              <img src="img/steve.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                
+              <span class="badge bg-warning text-dark">Javascript</span>
+              <span class="badge bg-info text-dark">React</span>
+              <h5 class="card-title">Steve Jobs</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatibus perferendis deleniti, totam fuga sequi iste! Facilis explicabo repellant ut similique incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</p>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-card">
+          <div class="card h-100">
+              <img src="img/bill.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+
+              <span class="badge bg-warning text-dark">Javascript</span>
+              <span class="badge bg-info text-dark">React</span>
+              <h5 class="card-title">Bill Gates</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatibus perferendis deleniti, totam fuga sequi iste! Facilis explicabo repellant ut similique incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</p>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-card">
+          <div class="card h-100">
+              <img src="img/ada.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+              
+              <span class="badge bg-secondary">Negocios</span>
+              <span class="badge bg-danger">Startups</span>
+              <h5 class="card-title">Ada Lovelace</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatibus perferendis deleniti, totam fuga sequi iste! Facilis explicabo repellant ut similique incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</p>
+              </div>
+          </div>
+      </div> 
+
+  </div>
+</div>
+<!-- playa -->
+
+<div id="lugar">
+  <div class="row">
+    <div class="col playa">
+      <img src="./img/honolulu.jpg" alt="playa" class="img-fluid" />
+    </div>
+    <div class="col octubre">
+        
+        <h4>Bs As - Octubre</h4>
+        <p class="text">
+            Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la <br> 
+            más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área <br>
+            urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad- <br>
+            condado consolidada que cubre toda la ciudad (aproximadamente 600km² de superficie).
+          </p>   
+            
+          <button type="button" class="btn btn-outline-light">Conocé más 
+          </button>    
     </div>
   </div>
-  <div class="card">
-    <img src="img/bill.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="img/ada.jpeg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
- </div>
 </div>
 
+<!-- Conviertete en orador  -->
 
 
+<div class="container">
+  <div class="row">
+      <div class="col mt-5 mb-3">                
+      <h6 class= "text-center">CONVIÉRTETE EN UN</h6>
+      <h2 class= "text-center text-uppercase">ORADOR</h2>
+      <p class="text-center">
+        Anótate como orador para dar una
+        <span class="puntos">charla ignite</span>. Cuéntanos de qué quieres hablar!
+    </p>
+      </div>
+  </div>
+</div>
 
-  </main>
-  <footer>
+   <!-- Form -->   
+      <div class="container" id="formulario">
+        
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+          </div>
+        </div>
+        <div class="form">
+            <textarea class="form-control" id="hablar" placeholder="Sobre qué quieres hablar?" style="height: 90px "></textarea>
+           
+            <div class="form-text">Recuerda incluir in título para tu charla</div>
+                <button type="button" class="btn btn-enviar">Enviar</button>
+        </div>      
+        
+      </div>
+    
+      
+  
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            Preguntas <br> frecuentes
+          </div>
+          <div class="col">
+            Contactanos
+          </div>
+          <div class="col">
+            Prensa
+          </div>
+          <div class="col">
+            Conferencias
+          </div>
+          <div class="col">
+            Terminos y <br> condiciones
+          </div>
+          <div class="col">
+            Privacidad
+          </div>
+          <div class="col">
+            Estudiantes
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    </main>
 
 
-  </footer>
-  </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
 </html>
