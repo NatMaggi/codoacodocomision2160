@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    position: relative;
+}
+
+nav img{
+    width: 100px;
+    height: 57px;
+    margin-left: 30px;
+}
+
+
+.navbar-brand{
+    font-size: 20px;
+}
+
+#navbarNav{
+    font-size:15px;
+   display:flex;
+   justify-content: flex-end;
+}
+#tickets{
+    color: rgba(47, 255, 75, 0.514) !important;
+}
+
+#ba{
+    filter: brightness(50%);
+    height: 550px !important;
+}
+
+.conf-bsas{
+    margin-top: 200px;
+    margin-right: 100px;
+    font-weight: 600;
+} 
+h5{
+    font-weight: 600;
+}
+.card-text{
+    line-height: 25px;
+}
+#orador{
+    margin: 8px;
+}
+
+#tick{
+ background-color: green;
+ color: white;
+ margin: 8px;
+}
+
+.col-card{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.card-text{
+    font-size: 13px;
+}
+
+.playa {
+    margin-right: 1px;
+    padding-right: 0px;
+    width: 50%;
+  }
+.octubre {
+    background-color: #353a40;
+    color: white;
+  }
+.text {
+    font-size: 12px;
+}
+#conv-orador{
+    text-align: center;
+    padding-top: 30px;
+}
+.puntos{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+.btn-enviar{
+    background-color: rgb(106, 207, 58);
+    color: white;
+    margin: 10px;
+    width: 100%
+}
+#formulario{
+    width:60%;
+}
+.form-control{
+    margin:10px;
+   
+}
+textarea{
+    font-size: 20px !important;
+}
+
+footer{
+    background: linear-gradient(rgb(20, 65, 77), rgb(34, 69, 109));
+    padding: 20px;
+    height: 80px;
+    text-align: center;
+    align-items: center !important;
+    vertical-align: middle !important;
+    font-size: small;
+    color:white;
+}
+.cuadrito1{
+    border: 1.5px solid #007BFF !important;
+
+  }
+
+  .cuadrito2{
+    border: 1.5px solid #17A2B8 !important;
+   
+  }
+
+  .cuadrito3{
+    border: 1.5px solid #FFC107 !important;
+   
+  }
+
+  #totalPagar{
+    border: 1.5px solid #B8DAFF !important;
+    color: #115994;
+  }
+  .btn-codo{
+    background-color: #97c93e;
+    color: white;
+    width: 90%;
+    margin: 2%;
+  }
+#form-tickets{
+    width: 75%;
+    
+}
+.form-group{
+    margin:2px;
+}
